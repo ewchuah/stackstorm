@@ -1,0 +1,15 @@
+---
+name: greet
+pack: jedi
+runner_type: "local-shell-script"
+description: Greet StackStorm!
+enabled: true
+entry_point: greet.sh
+parameters:
+    greeting:
+        type: string
+        description: Hello Jedi !
+        required: true
+        position: 1
+
+
